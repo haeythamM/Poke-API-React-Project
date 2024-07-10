@@ -1,0 +1,82 @@
+.id-card-container {
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15%;
+}
+
+.id-card {
+    width: 400px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+}
+
+.id-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.id-card-details {
+    flex: 1;
+}
+
+.id-card-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.id-card-stats {
+    margin-top: 20px;
+}
+
+.id-card-stats table {
+    width: 100%;
+}
+
+.id-card-stats th,
+.id-card-stats td {
+    padding: 8px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.id-card-stats th {
+    text-align: left;
+    font-weight: bold;
+}
+
+.id-card-back-button {
+    margin-top: 20px;
+    margin-right: 10px; 
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.id-card-back-button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.id-card-back-button:focus {
+    outline: none;
+}
+
+.id-card-back-button:active {
+    transform: translateY(1px);
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
